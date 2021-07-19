@@ -1,0 +1,6 @@
+{% extends 'FlaskSite/base.html' %}
+
+{% block content %}
+{{ super() }}
+{{ post | safe }}
+{% endblock %}
